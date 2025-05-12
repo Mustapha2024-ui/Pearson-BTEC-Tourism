@@ -19,28 +19,28 @@ body::-webkit-scrollbar {
 /* Font Styles */
 @font-face {
     font-family: HelveticaNowDisplay-ExtraBold;
-    src: url(fonts/HelveticaNowDisplay-ExtraBold.ttf);
+    src: url(HelveticaNowDisplay-ExtraBold.ttf);
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: HelveticaNowDisplay-Bold;
-    src: url(fonts/HelveticaNowDisplay-Bold.ttf);
+    src: url(HelveticaNowDisplay-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: HelveticaNowDisplay-Regular;
-    src: url(fonts/HelveticaNowDisplay-Regular.ttf);
+    src: url(HelveticaNowDisplay-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: HelveticaNowDisplay-Medium;
-    src: url(fonts/HelveticaNowDisplay-Medium.ttf);
+    src: url(HelveticaNowDisplay-Medium.ttf);
     font-weight: 500;
     font-style: normal;
 }
@@ -397,7 +397,7 @@ nav ul li a:hover {
     height: 40vh;
     padding-top: 60px;
     padding-bottom: 30px;
-    background: linear-gradient(rgba(38, 3, 3, 0.619), rgba(38, 3, 3, 0.573)),url(images/bg-image.jpeg);
+    background: linear-gradient(rgba(38, 3, 3, 0.619), rgba(38, 3, 3, 0.573)),url(bg-image.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -426,7 +426,7 @@ nav ul li a:hover {
     height: 40vh;
     padding-top: 3.75rem;        /* 60px */
     padding-bottom: 1.875rem;    /* 30px */
-    background: linear-gradient(rgba(38, 3, 3, 0.619), rgba(38, 3, 3, 0.573)), url(images/bg-image.jpeg);
+    background: linear-gradient(rgba(38, 3, 3, 0.619), rgba(38, 3, 3, 0.573)), url(bg-image.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -624,7 +624,7 @@ nav ul li a:hover {
 .texture-card1 {
     height: 21.875rem;           /* 350px */
     width: 37.5rem;              /* 600px */
-    background: url(/images/texture1.png);
+    background: url(texture1.png);
 }
 
 .site1,
@@ -637,12 +637,12 @@ nav ul li a:hover {
     width: 37.5rem;              /* 600px */
 }
 
-.site1 { background: url(images/texture1.png); }
-.site2 { background: url(images/texture2.png); }
-.site3 { background: url(images/texture3.png); }
-.site4 { background: url(images/texture4.png); }
-.site5 { background: url(images/texture5.png); }
-.site6 { background: url(images/texture6.png); }
+.site1 { background: url(texture1.png); }
+.site2 { background: url(texture2.png); }
+.site3 { background: url(texture3.png); }
+.site4 { background: url(texture4.png); }
+.site5 { background: url(texture5.png); }
+.site6 { background: url(texture6.png); }
 
 .texture-card2 {
     height: 21.875rem;           /* 350px */
