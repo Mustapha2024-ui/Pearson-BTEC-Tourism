@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kente-inspired.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo"><img src="images/logo1.png" alt=""></div>
+        </a>
+        <div class="hamburger" id="hamburger">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourist.html">Arts & Culture</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <a href="contact.html"><button class="nav-button">Contact Us</button></a>
+        </nav>
+    </header>
+
+    <section id="contact-sec">
+        <div class="con-hero">
+            <div class="contact">
+                <h1 class="anim">Contact Us</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.922493034883!2d-0.20472949999999995!3d5.578476099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a6b416f9905%3A0x416dfda30dc366a!2s26%20Cotton%20Ave%2C%20Accra!5e0!3m2!1sen!2sgh!4v1746984324108!5m2!1sen!2sgh"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>26 Cotton Avenue</h5>
+                        <p>Accra-Ghana</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>(+233) 54 324 0383</h5>
+                        <p>Monday to Saturday, 9AM - 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@Kente-inspired.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <a href=""><button class="contact-btn">Send Message</button></a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer-links">
+        <div class="bottom-links">
+            <div class="footer-logo">
+                <img src="images/logo1.png" alt="">
+                <p>The Kente-Inspired Fashion initiative fosters Ghanaian <br>
+                    heritage and contemporary design to boost
+                    economic <br> growth through strategic policies. By building public-private <br>
+                    partnerships and engaging the Diaspora, we aim to enhance <br>investment and promote the global
+                    sustainability of Kente fashion.
+                </p>
+
+                <span class="social-icons">
+                    <a href="https://www.facebook.com" class="fb-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="ig-icon">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="youtube-icon">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                    <a href="https://www.x.com" class="x-icon">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </span>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="index.html">Home</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="about.html">About Us</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="tourist.html">Arts & Culture</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="get-in-touch">
+                <h2>Get in Touch</h2>
+                <ul>
+                    <li><i class="fa-solid fa-home"></i><a href="#">26 Cotton Avenue</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="#">(+233) 54 324 0383</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="#">info@Kente-inspired.com</a></li>
+                </ul>
+            </div>
+    </section>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.querySelector('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>    
+</body>
+
+</html>

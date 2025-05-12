@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kente-inspired.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo"><img src="images/logo1.png" alt=""></div>
+        </a>
+        <div class="hamburger" id="hamburger">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourist.html">Arts & Culture</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <a href="contact.html"><button class="nav-button">Contact Us</button></a>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="hero">
+            <div class="text">
+                <h1 class="anim">Fashion Meets Culture: <br>
+                    Experience Ghana’s <br>
+                    Kente Legacy
+                </h1>
+                <p class="anim">Explore the artistry of Kente-inspired fashion and immerse yourself in the
+                    <br>rich cultural heritage of Ghana,where every design tells a unique story
+                    <br> and enhances your travel experience.
+                </p>
+                <a href="/tourist.html"><button class="btn anim">Explore More</button></a>
+    </section>
+
+    <section id="about">
+        <div class="about-sec">
+            <h2>Akwaaba!</h2>
+            <p>Step into the vibrant realm of Kente-inspired fashion, where the rich cultural heritage of Ghana comes
+                alive through stunning designs and intricate artistry. Each piece of Kente fabric tells a unique story,
+                reflecting the values and traditions of a nation celebrated for its creativity and craftsmanship. This
+                fashion embodies more than just clothing; it serves as a reflection of cultural identity and pride.</p>
+
+            <p>Kente fashion acts as a bridge connecting Ghanaian culture to global audiences. As Kente designs gain
+                recognition on international runways, they spark curiosity and inspire appreciation for the artistry
+                that defines Ghana. By embracing this unique style, you not only adorn yourself with beautiful garments
+                but also engage with the profound narratives woven into each pattern.</p>
+
+            <p>Ultimately, Kente-inspired fashion enriches the travel experience, inviting you to immerse yourself in
+                Ghana's rich history and vibrant traditions. Wearing Kente allows you to carry a piece of Ghana's beauty
+                and significance wherever you go. Join us on this exciting journey where fashion meets culture, and let
+                the vibrant narratives of Kente inspire you!
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <i class="fa-solid fa-eye"></i>
+                <h2>Vision</h2>
+                <p>To be a leading advocate for Kente-inspired fashion, bridging Ghanaian heritage with global
+                    audiences. We aim to inspire curiosity and enrich travel experiences through cultural exchange
+                </p>
+            </div>
+            <div class="card2">
+                <i class="fa-solid fa-bullseye"></i>
+                <h2>Mission</h2>
+                <p>To celebrate and promote Ghanaian culture through innovative Kente-inspired fashion, fostering a
+                    global appreciation for its artistry while supporting local artisans and communities.
+                </p>
+            </div>
+            <div class="card3">
+                <i class="fa-solid fa-recycle"></i>
+                <h2>Commitment</h2>
+                <p>To prioritize sustainable practices in the production and promotion of Kente fashion, ensuring that
+                    the artistry and resources of Ghana are preserved for future generations while minimizing
+                    environmental impact.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="footer-links">
+        <div class="bottom-links">
+            <div class="footer-logo">
+                <img src="images/logo1.png" alt="">
+                <p>The Kente-Inspired Fashion initiative fosters Ghanaian <br>
+                     heritage and contemporary design to boost
+                    economic <br> growth through strategic policies. By building public-private <br>
+                    partnerships and engaging the Diaspora, we aim to enhance <br>investment and promote the global sustainability of Kente fashion.
+                </p>
+
+                <span class="social-icons">
+                    <a href="https://www.facebook.com" class="fb-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="ig-icon">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="youtube-icon">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                    <a href="https://www.x.com" class="x-icon">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="index.html">Home</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="about.html">About Us</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="tourist.html">Arts & Culture</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="get-in-touch">
+                <h2>Get in Touch</h2>
+                <ul>
+                    <li><i class="fa-solid fa-home"></i><a href="#">26 Cotton Avenue</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="#">(+233) 54 324 0383</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="#">info@Kente-inspired.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.querySelector('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>    
+</body>
+
+</html>
