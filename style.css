@@ -640,9 +640,9 @@ nav ul li a:hover {
 .site1 { background: url(texture1.png); }
 .site2 { background: url(texture2.png); }
 .site3 { background: url(texture3.png); }
-.site4 { background: url(texture4.png); }
-.site5 { background: url(texture5.png); }
-.site6 { background: url(texture6.png); }
+.site4 { background: url(texture5.png); }
+.site5 { background: url(texture4.png); }
+.site6 { background: url(texture5.png); }
 
 .texture-card2 {
     height: 21.875rem;           /* 350px */
